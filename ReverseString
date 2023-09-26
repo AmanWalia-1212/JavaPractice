@@ -1,0 +1,10 @@
+ public class ReverseString   
+{    
+    public static void main(String[] args) {    
+        String string = "Big Dream";    
+    String Reversestring =""  ;
+    for(int A=string.length()-1;A>=0;A--)
+    {Reversestring=Reversestring+string.charAt(A);
+    }System.out.println("Reverse of given string: " + Reversestring);
+    }
+}  
